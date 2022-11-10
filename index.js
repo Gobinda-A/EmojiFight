@@ -4,8 +4,8 @@ let ct1=0,ct2=0;
 let stageEl1 = document.getElementById("stage1");
 let stageEl2 = document.getElementById("stage2");
 let message=document.getElementById("message");
-stageEl1.textContent="Enoji";
-stageEl2.textContent="Enoji";
+stageEl1.textContent="Emoji";
+stageEl2.textContent="Emoji";
 function start(){
    rand=Math.floor(Math.random()*17); 
     stageEl1.textContent=fighters[rand]; 
